@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+      display: flex;
+      height: 100vh;
+      width: 100vw;
+      justify-content: center;
+      align-items: center;
+      background: var(--background);
+      color: var(--foreground);
+      font-size: calc(100vw / 20);
+    }
+
+    :root {
+      --foreground: #333;
+      --background: #EEE;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --foreground: #EEE;
+        --background: #333;
+      }
+    }
+  </style>
+
+  <body>
+    <div class="message">
+      Lemon, it's <span class="day"></span>.
+    </div>
+    <script src="script.js"></script>
+  </body>
+
+</html>
