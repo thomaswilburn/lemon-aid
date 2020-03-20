@@ -2,7 +2,7 @@
   "name": "Lemon Aid",
   "description": "What a week, huh?",
   "manifest_version": 2,
-  "version": "1.0.3",
+  "version": "1.0.4",
   "chrome_url_overrides": {
     "newtab": "index.html"
   },
